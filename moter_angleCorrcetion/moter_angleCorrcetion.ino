@@ -13,8 +13,8 @@ const int ENC_DT_PIN  = 4; // KY-040 DT
 // ==========================
 volatile long encoderCount = 0;  // 펄스 누적용 (증가 또는 감소)
 
-// 네가 보정 코드로 직접 측정한 값으로 바꿔 넣기!
-const float PULSES_PER_REV = 24.0;  // 예시값. 너의 실제 측정값으로 수정.
+
+const float PULSES_PER_REV = 20.0; 
 
 // 한 펄스당 각도
 const float DEG_PER_PULSE = 360.0 / PULSES_PER_REV;
